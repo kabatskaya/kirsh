@@ -1,0 +1,237 @@
+body{
+	    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+
+/*HEADER*/
+
+
+header {
+	background-image: url(../img/background-header.jpg);
+    background-size: cover;
+    color: white;
+    padding: 60px 0 20px;
+
+}
+
+section{
+	padding:60px 0;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: none;
+    line-height: 38px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 0px black;
+}
+h2 {
+    display: block;
+    width: auto;
+    padding: 20px;
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h3 {
+    font-weight: 900;
+    display: inline-block;
+    margin: 20px;
+    background-color: #FFD740;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 0px 0px #FFC400;
+}
+h4{
+	font-family: Roboto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: none;
+    line-height: 22px;
+    border-bottom: 3px solid #F4FF81;
+    display: inline-block;
+    
+}
+h5 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 34px;
+}
+a.btn {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 10px;
+    color: #263238;
+    font-weight: bold;
+}
+
+a.btn.button-date{
+	background-color: #FFFF00;
+	box-shadow: 3px 3px 0px 0px #FFEA00;
+}
+a.btn.button-more{
+	background-color: #FFD740;
+	box-shadow: 3px 3px 0px 0px #FFC400;
+}
+
+a.btn.button-date:hover{
+	box-shadow: 10px 10px 0px 0px #FFEA00;
+}
+a.btn.button-more:hover{
+	box-shadow: 10px 10px 0px 0px #FFC400;
+}
+
+@media (min-width: 768px) {
+	header{
+		min-height: 800px;
+    	height: 100vh;
+	}
+
+	header > .container {
+	    padding: 150px 0;
+	}
+	h1{
+		font-family: Roboto;
+	    font-weight: 900;
+	    font-style: normal;
+	    font-size: 50px;
+	    text-transform: none;
+	    line-height: 52px;
+	    margin: 50px 0;
+	    text-shadow: 3px 4px 0px black;
+	}
+	h4{
+		font-family: Roboto;
+	    font-weight: 900;
+	    font-style: normal;
+	    font-size: 32px;
+	    text-transform: none;
+	    line-height: 50px;
+	    border-bottom: 3px solid #F4FF81;
+	    display: inline-block;
+	}
+	span.big {
+	    font-size: 68px;
+	    color: yellow;
+	    text-shadow: 3px 4px 0px #FF9800;
+	}
+}
+
+/*NAVIGATION*/ 
+.navbar-default a.navbar-brand > img{
+		width: auto;
+		height: 100%
+	}
+	.navbar-default .navbar-brand {
+	    padding: 5px 15px;
+	}
+
+
+@media (min-width: 768px) {
+	.navbar-default a.navbar-brand,
+	.navbar-default a.navbar-brand:hover,
+	.navbar-default .navbar-brand:focus{
+		width: 100px;
+	    background-color: #FAFAFA;
+	    height: auto;
+	    position: absolute;
+	    padding: 20px 20px;
+	    border-radius: 50%;
+	    box-shadow: 3px 3px 0px 0px #BDBDBD;
+	}
+	.navbar-default a.navbar-brand > img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+
+/*LECTOR*/
+
+section.lector{
+	background-color: #f8f8f8;
+	border-bottom: 3px solid #FFC400;
+
+}
+
+.lector img {
+    border-radius: 50%;
+    border: 3px solid #FFD740;
+    width: 400px;
+    box-shadow: 3px 3px 0px 0px #BDBDBD;
+    box-shadow: 10px 10px 0px 0px #FFC400;
+}
+
+.center-block {
+    text-align: center;
+}
+
+a.btn.registration {
+    background-color: #0091EA;
+    color: white;
+    box-shadow: 3px 3px 0px 0px #01579B;
+}
+a.btn.registration:hover {
+    box-shadow: 10px 10px 0px 0px #01579B;
+}
+
+/*PROGRAM*/
+#program {
+	border-bottom: 3px solid #FFC400;
+}
+#program h2 {
+    width: 600px;
+    max-width: 100%;
+}
+/*INFORMATION*/
+
+section#information{
+	background-image: url(../img/map.jpg);
+}
+#information .inform {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 20px 20px 0px 0px #EEEEEE;
+}
+#information h2{
+	width: 350px;
+}
+
+#information h5 {
+    margin-top: 0px;
+}
+#information h5 span{
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 14px;
+}
+#information p{
+    margin: 20px 0 0px;
+}
+
+#information img{
+	width: 110px;
+	margin-right: 20px;
+}
+#information .inform-block-2 img{
+	width: 50px;
+	margin-right: 20px;
+}
+
+
+/*MODAL*/
+
+.modal h1{
+	text-shadow: none;
+}
